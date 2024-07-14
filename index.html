@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-br" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portifolio</title>
+  <link rel="stylesheet" href="./style/index.css">
+  <link rel="stylesheet" href="./style/styles.css">
+
+</head>
+
+<body class="bg-[#11071F]">
+
+  <!-- Cabeçalho responsivo do site -->
+  <header class="page-header bg-[#1A0B2E] lg:h-20 md:h-16 h-12 flex items-center justify-between lg:px-60 md:px-32 px-20">
+
+    <img class="lg:w-36 md:w-20 w-20" src="./img/Logo_Branca.png" alt="Logo VS Branca">
+
+    <button id="toggleMenu" class="lg:hidden md:hidden text-white">
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256"
+        style="fill:#000000;">
+        <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+          stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+          font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+          <g transform="scale(5.12,5.12)">
+            <path
+              d="M5,8c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175zM5,23c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175zM5,38c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175z">
+            </path>
+          </g>
+        </g>
+      </svg>
+    </button>
+
+    <nav class="lg:flex md:flex">
+      <ul class="text-xl flex items-center gap-[80px]">
+        <li><a href="#home" class="text-white font-plus font-semibold md:text-base lg:text-xl">Início</a></li>
+        <li><a href="#about" class="text-white font-plus font-semibold md:text-base lg:text-xl">Sobre</a></li>
+        <li><a href="#portifolio" class="text-white font-plus font-semibold md:text-base lg:text-xl">Portifolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Section que exibe o conteúdo inicial para o site -->
+    <section id="home" class="mb-[50px]">
+      <article class="flex flex-wrap items-center justify-center xl:gap-[100px] xl:mt-32
+        lg:gap-[0px] lg:mt-10">
+        <div class="w-96 h-full flex items-center justify-center">
+          <img class="bg-my-Image bg-center bg-no-repeat bg-contain xl:w-96 lg:w-64 md:w-52" src="./img/image.png"
+            alt="minha imagem">
+        </div>
+        <div>
+          <h1 class="font-preahvihear text-white xl:text-2xl xl:leading-[100px]
+            lg:text-xl md:text-lg">Olá, eu sou Victor Sanches,</h1>
+          <p class="font-preahvihear text-white xl:text-xl xl:leading-10
+            lg:text-lg md:text-md">um programador que acredita na</p>
+          <p class="font-preahvihear text-white xl:text-4xl xl:leading-[35px]
+            lg:text-2xl md:text-xl">arte de contar histórias</br>através de cada código.</p>
+          <p class="font-preahvihear text-white xl:text-xl xl:leading-10
+            lg:text-lg md:text-md">Porque a primeira impressão é o início de uma jornada memorável.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="about max-w-screen bg-slate-900/[.30] py-[50px]" id="about">
+      <article>
+        <h2 class="font-preahvihear text-white xl:text-2xl xl:leading-[100px]
+          lg:text-xl md:text-lg text-center">Sobre mim</h2>
+        
+        <div class="flex justify-center gap-[100px]">
+          
+          <img class="w-1/3 object-cover hidden md:block" src="./img/image-progaming.webp" alt="Imagem ilustrativa">
+          
+          <div class="w-1/3">
+            <p class="font-preahvihear text-white xl:text-mg text-justify mt-[100px] mb-[20px]">
+              Eu sou Victor Sanches de Almeida, e aos meus 20 anos, estou imerso no fascinante mundo da programação, especialmente no desenvolvimento web! Meu caminho começou na escola técnica, onde mergulhei de cabeça no
+              universo do desenvolvimento web, uma experiência que despertou minha paixão pela área. Atualmente, estou avançando ainda mais nessa jornada, cursando engenharia de software.
+            </p>
+            <p class="font-preahvihear text-white xl:text-mg text-justify">
+              Fui contratado recentemente pela empresa de desenvolvimento web chamada Onda Web on atuo no desenvolvimento de web-site e no suporte técnico solucinando bug's e atendendo as demandas do clientes.
+              Desenvolvo site utilizando tecnologias como: HTML, CSS, PHP e WordPress.
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="portifolio max-w-screen py-[50px] lg:px-[200px] px-[120px]" id="portifolio">
+      <article>
+        <h2 class="font-preahvihear text-white xl:text-2xl xl:leading-[100px]
+        lg:text-xl md:text-lg text-center mb-[30px]">Portifolio</h2>
+        <div class="cards-portifolio grid gap-8 justify-center mx-auto md:grid-cols-2">
+          <div class="card-box bg-slate-900 w-full h-[500px] p-5 rounded-xl">
+            <div class="w-full h-[350px]">
+              <img class="object-cover w-full h-full mb-5" src="./img/jogo-velha.png" alt="imagem jogo da velha">
+              <h3 class="font-preahvihear text-white xl:text-2xl
+              lg:text-xl md:text-lg mb-5">Jogo da velha</h3>
+              <a href="https://github.com/VictorSanchesDeAlmeida/jogo-velha" target="_blank" class="bg-blue-500 py-2 px-4 rounded-lg mr-5"><span class="font-preahvihear text-white">GitHub</span></a>
+              <a href="https://jogo-velha-iota.vercel.app" target="_blank" class="bg-blue-500 py-2 px-4 rounded-lg"><span class="font-preahvihear text-white">Projeto</span></a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Section que exibe um pouco da minha trajetória e as tecnologias e conhecimentos adquiridos durante minha jornada  -->
+  </main>
+
+  <!-- Script para exibir menu de navegação do site -->
+  <script src="./script.js"></script>
+</body>
+
+</html>
